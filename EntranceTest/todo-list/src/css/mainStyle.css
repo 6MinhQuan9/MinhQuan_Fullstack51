@@ -1,0 +1,122 @@
+/* 
+
+body {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+    height: 100vh;
+} 
+
+form {
+    display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 50px;
+	height: 100%;
+}
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+
+
+.form-container {
+	position: absolute;
+	top: 0;
+	height: 100%;
+}
+
+p{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+input{
+    width: 100%;
+}
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: auto;
+  width: 900px;
+  height: auto;
+  overflow: auto;
+  display: flex;
+  border: solid 1px black;
+}
+
+.form-container {
+  padding: 0 50px;
+}
+
+.header {
+  text-align: center;
+  padding: 2rem;
+}
+p {
+  font-weight: 500;
+  font-size: 12px;
+}
+
+input {
+  outline: none;
+}
+.desc-input {
+  padding: 8px 15px;
+  margin: 8px 0;
+  width: 75%;
+  min-height: 143px;
+}
+
+.DateAndPority {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+}
+
+.btn-primary {
+  background-color: #5cb85c;
+  width: 85%;
+  color: white;
+  padding: 8px 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-detail {
+  background-color: #00bcd4;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn-remove {
+  background-color: #d9534f;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.bulkAction {
+  display: flex;
+  background-color: #e0e0e0;
+  margin-top: 500px;
+  display: flex;
+}
+
+.allDone {
+  width: 4rem;
+  height: 2rem;
+  margin-left: 190px;
+  margin-right: 8px;
+}

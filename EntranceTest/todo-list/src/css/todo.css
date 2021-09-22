@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.todo {
+    
+    display: flex;  
+    border: 1px solid black;
+    width: 100%;
+}
+
+.checkAndTitle{
+   flex: start;
+    display: flex;
+}
+.removeAndDetail-btn{
+    justify-content: end;
+}
